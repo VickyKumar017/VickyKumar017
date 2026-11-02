@@ -1,6 +1,3 @@
-from pathlib import Path
-
-readme = r'''<div align="center">
 
 # Hi, I'm Vicky Kumar 👋
 
@@ -19,7 +16,7 @@ Building reliable backend applications and practical software solutions.
 
 ## 👨‍💻 About Me
 
-I am a **B.Tech Computer Science Engineering student (2028 batch)** focused on Java Backend Development. I enjoy problem-solving and building efficient, scalable, and reliable backend applications using Java technologies.
+I am a **B.Tech Computer Science Engineering student (2028 batch) focused on Java Backend Development. I enjoy problem-solving and building efficient, scalable, and reliable backend applications using Java technologies.
 
 - Interested in designing and developing backend applications.
 - Focused on clean, readable, and maintainable code.
@@ -71,10 +68,4 @@ I am a **B.Tech Computer Science Engineering student (2028 batch)** focused on J
 
 *Thanks for visiting my profile!*
 
-</div>
-'''
-path = Path("/mnt/data/README.md")
-path.write_text(readme, encoding="utf-8")
-print(f"Created polished GitHub Profile README: {path}")
-print(f"File size: {path.stat().st_size} bytes")
 
